@@ -5,7 +5,7 @@ namespace BookStore.BookOperations.CreateBook;
 public class CreateBookCommand
 {
     private readonly BookStoreDbContext _dbContext;
-    public CreateBookModel Model { get; set; }
+    public CreateBookModel Model { get; set; } = null!;
 
     public CreateBookCommand(BookStoreDbContext dbContext) => _dbContext = dbContext;
 

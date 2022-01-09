@@ -7,7 +7,7 @@ public class UpdateBookCommand
     private readonly BookStoreDbContext _dbContext;
 
     public int Id { get; set; }
-    public UpdateBookModel Model { get; set; }
+    public UpdateBookModel Model { get; set; } = null!;
 
     public UpdateBookCommand(BookStoreDbContext dbContext) => _dbContext = dbContext;
 
@@ -22,10 +22,4 @@ public class UpdateBookCommand
 
         _dbContext.SaveChanges();
     }
-}
-
-public class UpdateBookModel
-{
-    public string? Title { get; set; }
-    public int GenreId { get; set; }
 }
