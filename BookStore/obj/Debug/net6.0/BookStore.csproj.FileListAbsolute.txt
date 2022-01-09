@@ -28,3 +28,5 @@ C:\Users\hakan\source\repos\BookStore\BookStore\obj\Debug\net6.0\BookStore.genru
 C:\Users\hakan\source\repos\BookStore\BookStore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\hakan\source\repos\BookStore\BookStore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\hakan\source\repos\BookStore\BookStore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\hakan\source\repos\BookStore\BookStore\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\hakan\source\repos\BookStore\BookStore\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
