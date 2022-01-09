@@ -1,4 +1,3 @@
-using System.Linq;
 using AutoMapper;
 using BookStore.BookOperations.CreateBook;
 using BookStore.BookOperations.DeleteBook;
@@ -6,6 +5,7 @@ using BookStore.BookOperations.GetBookDetail;
 using BookStore.BookOperations.GetBooks;
 using BookStore.BookOperations.UpdateBook;
 using BookStore.DBOperations;
+using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BookStore.Controllers;
@@ -37,7 +37,9 @@ public class BookController : ControllerBase
         try
         {
             GetBookDetailQuery query = new GetBookDetailQuery(_context, _mapper);
-            query.id = id;
+            query.Id = id;
+            GetBookDetailQueryValidator validator = new GetBookDetailQueryValidator();
+            validator.ValidateAndThrow(query);
             book = query.Handle();
         }
         catch (Exception ex)
@@ -54,6 +56,8 @@ public class BookController : ControllerBase
         {
             CreateBookCommand command = new CreateBookCommand(_context, _mapper);
             command.Model = newBook;
+            CreateBookCommandValidator validator = new CreateBookCommandValidator();
+            validator.ValidateAndThrow(command);
             command.Handle();
         }
         catch (Exception ex)
@@ -71,6 +75,8 @@ public class BookController : ControllerBase
             UpdateBookCommand command = new UpdateBookCommand(_context);
             command.Id = id;
             command.Model = updatedBook;
+            UpdateBookCommandValidator validator = new UpdateBookCommandValidator();
+            validator.ValidateAndThrow(command);
             command.Handle();
         }
         catch (Exception ex)
@@ -87,6 +93,8 @@ public class BookController : ControllerBase
         {
             DeleteBookCommand command = new DeleteBookCommand(_context);
             command.Id = id;
+            DeleteBookCommandValidator validator = new DeleteBookCommandValidator();
+            validator.ValidateAndThrow(command);
             command.Handle();
         }
         catch (Exception ex)

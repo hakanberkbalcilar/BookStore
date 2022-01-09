@@ -8,7 +8,7 @@ public class GetBookDetailQuery
 {
     private readonly BookStoreDbContext _dbContext;
     private readonly IMapper _mapper;
-    public int id { get; set; }
+    public int Id { get; set; }
 
     public GetBookDetailQuery(BookStoreDbContext dbContext, IMapper mapper)
     {
@@ -18,7 +18,7 @@ public class GetBookDetailQuery
 
     public BookDetailViewModel Handle()
     {
-        var book = _dbContext.Books.FirstOrDefault(x => x.Id == id);
+        var book = _dbContext.Books.FirstOrDefault(x => x.Id == Id);
         
         if (book is null)
             throw new InvalidOperationException("Book is not found!");
