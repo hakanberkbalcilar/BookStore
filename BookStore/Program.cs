@@ -36,7 +36,7 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
-app.UseHello();
+app.UseCustomException();
 
 app.MapControllers();
 

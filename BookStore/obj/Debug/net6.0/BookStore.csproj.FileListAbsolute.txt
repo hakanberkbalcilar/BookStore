@@ -31,3 +31,4 @@ C:\Users\hakan\source\repos\BookStore\BookStore\bin\Debug\net6.0\Microsoft.Entit
 C:\Users\hakan\source\repos\BookStore\BookStore\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\hakan\source\repos\BookStore\BookStore\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\hakan\source\repos\BookStore\BookStore\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\hakan\source\repos\BookStore\bookstore\bin\Debug\net6.0\Newtonsoft.Json.dll

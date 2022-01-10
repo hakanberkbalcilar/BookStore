@@ -4,5 +4,5 @@ namespace BookStore.Extensions;
 
 public static class MiddlewareExtensions
 {
-    public static IApplicationBuilder UseHello(this IApplicationBuilder builder) => builder.UseMiddleware<HelloMiddleware>();
+    public static IApplicationBuilder UseCustomException(this IApplicationBuilder builder) => builder.UseMiddleware<CustomExceptionMiddleware>();
 }
