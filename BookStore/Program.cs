@@ -1,5 +1,6 @@
 using System.Reflection;
 using BookStore.DBOperations;
+using BookStore.Extensions;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -34,6 +35,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.UseHello();
 
 app.MapControllers();
 
