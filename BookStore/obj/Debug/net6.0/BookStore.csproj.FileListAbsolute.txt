@@ -6,7 +6,14 @@ C:\Users\hakan\source\repos\BookStore\BookStore\bin\Debug\net6.0\BookStore.runti
 C:\Users\hakan\source\repos\BookStore\BookStore\bin\Debug\net6.0\BookStore.dll
 C:\Users\hakan\source\repos\BookStore\BookStore\bin\Debug\net6.0\ref\BookStore.dll
 C:\Users\hakan\source\repos\BookStore\BookStore\bin\Debug\net6.0\BookStore.pdb
+C:\Users\hakan\source\repos\BookStore\BookStore\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\hakan\source\repos\BookStore\BookStore\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\hakan\source\repos\BookStore\BookStore\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\hakan\source\repos\BookStore\BookStore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\hakan\source\repos\BookStore\BookStore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\hakan\source\repos\BookStore\BookStore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\Users\hakan\source\repos\BookStore\BookStore\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\hakan\source\repos\BookStore\BookStore\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\hakan\source\repos\BookStore\BookStore\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\hakan\source\repos\BookStore\BookStore\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\hakan\source\repos\BookStore\BookStore\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -25,10 +32,3 @@ C:\Users\hakan\source\repos\BookStore\BookStore\obj\Debug\net6.0\BookStore.dll
 C:\Users\hakan\source\repos\BookStore\BookStore\obj\Debug\net6.0\ref\BookStore.dll
 C:\Users\hakan\source\repos\BookStore\BookStore\obj\Debug\net6.0\BookStore.pdb
 C:\Users\hakan\source\repos\BookStore\BookStore\obj\Debug\net6.0\BookStore.genruntimeconfig.cache
-C:\Users\hakan\source\repos\BookStore\BookStore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\hakan\source\repos\BookStore\BookStore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\hakan\source\repos\BookStore\BookStore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
-C:\Users\hakan\source\repos\BookStore\BookStore\bin\Debug\net6.0\AutoMapper.dll
-C:\Users\hakan\source\repos\BookStore\BookStore\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\hakan\source\repos\BookStore\BookStore\bin\Debug\net6.0\FluentValidation.dll
-C:\Users\hakan\source\repos\BookStore\bookstore\bin\Debug\net6.0\Newtonsoft.Json.dll
