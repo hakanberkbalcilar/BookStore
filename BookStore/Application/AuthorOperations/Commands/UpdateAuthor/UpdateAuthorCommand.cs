@@ -4,12 +4,12 @@ namespace BookStore.Application.AuthorOperations.Commands.UpdateAuthor;
 
 public class UpdateAuthorCommand
 {
-    private readonly BookStoreDbContext _dbContext;
+    private readonly IBookStoreDbContext _dbContext;
 
     public int Id { get; set; }
     public UpdateAuthorModel Model { get; set; } = null!;
 
-    public UpdateAuthorCommand(BookStoreDbContext dbContext) => _dbContext = dbContext;
+    public UpdateAuthorCommand(IBookStoreDbContext dbContext) => _dbContext = dbContext;
 
     public void Handle()
     {

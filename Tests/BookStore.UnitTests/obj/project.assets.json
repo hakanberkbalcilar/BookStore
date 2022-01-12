@@ -7319,6 +7319,8 @@
     "net6.0": [
       "BookStore >= 1.0.0",
       "FluentAssertions >= 6.3.0",
+      "Microsoft.EntityFrameworkCore >= 6.0.1",
+      "Microsoft.EntityFrameworkCore.InMemory >= 6.0.1",
       "Microsoft.NET.Test.Sdk >= 16.11.0",
       "Moq >= 4.16.1",
       "coverlet.collector >= 3.1.0",
@@ -7377,6 +7379,14 @@
           "FluentAssertions": {
             "target": "Package",
             "version": "[6.3.0, )"
+          },
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[6.0.1, )"
+          },
+          "Microsoft.EntityFrameworkCore.InMemory": {
+            "target": "Package",
+            "version": "[6.0.1, )"
           },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",

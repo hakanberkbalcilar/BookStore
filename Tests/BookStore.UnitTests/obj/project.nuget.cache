@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R5tYsu89Ou/18H63KhKm7B2YoSIMCwaehYjyZfYDwWmlo9D6BNL1Bwd6RSSEPxeYzXmezaaydm5xUJ2m8IuJEQ==",
+  "dgSpecHash": "ERdWQo1kpmKcWAiC18JVHkKqyMC2YU6WKKjZmneN7bMnLvE03fgXLLAOBaNg4UQzKWmGMH4/aIVZmHMsGkicNg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hakan\\source\\repos\\BookStore\\Tests\\BookStore.UnitTests\\BookStore.UnitTests.csproj",
+  "projectFilePath": "c:\\Users\\hakan\\source\\repos\\BookStore\\Tests\\BookStore.UnitTests\\BookStore.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hakan\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\hakan\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

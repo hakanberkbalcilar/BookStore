@@ -1,5 +1,4 @@
 using AutoMapper;
-using BookStore.Common;
 using BookStore.DBOperations;
 using Microsoft.EntityFrameworkCore;
 
@@ -7,11 +6,11 @@ namespace BookStore.Application.BookOperations.Queries.GetBookDetail;
 
 public class GetBookDetailQuery
 {
-    private readonly BookStoreDbContext _dbContext;
+    private readonly IBookStoreDbContext _dbContext;
     private readonly IMapper _mapper;
     public int Id { get; set; }
 
-    public GetBookDetailQuery(BookStoreDbContext dbContext, IMapper mapper)
+    public GetBookDetailQuery(IBookStoreDbContext dbContext, IMapper mapper)
     {
         _dbContext = dbContext;
         _mapper = mapper;

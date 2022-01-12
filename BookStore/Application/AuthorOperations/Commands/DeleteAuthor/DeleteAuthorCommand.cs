@@ -5,11 +5,11 @@ namespace BookStore.Application.AuthorOperations.Commands.DeleteAuthor;
 
 public class DeleteAuthorCommand
 {
-    private readonly BookStoreDbContext _dbContext;
+    private readonly IBookStoreDbContext _dbContext;
 
     public int Id { get; set; }
 
-    public DeleteAuthorCommand(BookStoreDbContext dbContext) => _dbContext = dbContext;
+    public DeleteAuthorCommand(IBookStoreDbContext dbContext) => _dbContext = dbContext;
 
     public void Handle()
     {
