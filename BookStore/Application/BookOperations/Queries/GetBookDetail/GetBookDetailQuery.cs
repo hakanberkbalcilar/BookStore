@@ -21,7 +21,7 @@ public class GetBookDetailQuery
         var book = _dbContext.Books.Include(x => x.Genre).Include(x => x.Author).FirstOrDefault(x => x.Id == Id);
         
         if (book is null)
-            throw new InvalidOperationException("Book is not found!");
+            throw new InvalidOperationException("Book is not exist!");
         
         var vm = _mapper.Map<BookDetailViewModel>(book);
         return vm;

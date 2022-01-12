@@ -20,7 +20,7 @@ public class GetAuthorDetailQuery
         var author = _dbContext.Authors.FirstOrDefault(x => x.Id == Id);
         
         if (author is null)
-            throw new InvalidOperationException("Author is not found!");
+            throw new InvalidOperationException("Author is not exist!");
         
         var vm = _mapper.Map<AuthorDetailViewModel>(author);
         return vm;

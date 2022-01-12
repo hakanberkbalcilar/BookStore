@@ -13,16 +13,14 @@ namespace Application.BookOperations.Commands.UpdateBook;
 public class UpdateBookCommandTests : IClassFixture<CommonTestFixture>
 {
     private readonly BookStoreDbContext _context;
-    private readonly IMapper _mapper;
 
     public UpdateBookCommandTests(CommonTestFixture testFixture)
     {
         _context = testFixture.Context;
-        _mapper = testFixture.Mapper;
     }
 
     [Fact]
-    public void WhenGivenBookIsAlreadyExist_InvalidOperationExecption_ShouldBeReturn()
+    public void WhenGivenIdIsNotExist_InvalidOperationException_ShouldBeReturn()
     {
         //arrange(Hazırlık)
         UpdateBookCommand command = new UpdateBookCommand(_context);
@@ -40,8 +38,8 @@ public class UpdateBookCommandTests : IClassFixture<CommonTestFixture>
     {
         //arrange(Hazırlık)
         UpdateBookCommand command = new UpdateBookCommand(_context);
-        var model = new UpdateBookModel { Title = "Hobbit", GenreId = 1 };
-        command.Id = 1;
+        var model = new UpdateBookModel { Title = "WhenGivenInputsAreValid_Book_ShouldBeUpdated", GenreId = 2 };
+        command.Id = 3;
         command.Model = model;
 
         //act(Çalıştırma)

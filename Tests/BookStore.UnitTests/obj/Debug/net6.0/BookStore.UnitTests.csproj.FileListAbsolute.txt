@@ -10,10 +10,10 @@ C:\Users\hakan\source\repos\BookStore\Tests\BookStore.UnitTests\bin\Debug\net6.0
 C:\Users\hakan\source\repos\BookStore\Tests\BookStore.UnitTests\bin\Debug\net6.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\Users\hakan\source\repos\BookStore\Tests\BookStore.UnitTests\bin\Debug\net6.0\xunit.runner.reporters.netcoreapp10.dll
 C:\Users\hakan\source\repos\BookStore\Tests\BookStore.UnitTests\bin\Debug\net6.0\xunit.runner.utility.netcoreapp10.dll
-C:\Users\hakan\source\repos\BookStore\Tests\BookStore.UnitTests\bin\Debug\net6.0\BookStore.UnitTests.deps.json
-C:\Users\hakan\source\repos\BookStore\Tests\BookStore.UnitTests\bin\Debug\net6.0\BookStore.UnitTests.runtimeconfig.json
+c:\Users\hakan\source\repos\BookStore\Tests\BookStore.UnitTests\bin\Debug\net6.0\BookStore.UnitTests.deps.json
+c:\Users\hakan\source\repos\BookStore\Tests\BookStore.UnitTests\bin\Debug\net6.0\BookStore.UnitTests.runtimeconfig.json
 C:\Users\hakan\source\repos\BookStore\Tests\BookStore.UnitTests\bin\Debug\net6.0\BookStore.UnitTests.dll
-C:\Users\hakan\source\repos\BookStore\Tests\BookStore.UnitTests\bin\Debug\net6.0\ref\BookStore.UnitTests.dll
+c:\Users\hakan\source\repos\BookStore\Tests\BookStore.UnitTests\bin\Debug\net6.0\ref\BookStore.UnitTests.dll
 C:\Users\hakan\source\repos\BookStore\Tests\BookStore.UnitTests\bin\Debug\net6.0\BookStore.UnitTests.pdb
 C:\Users\hakan\source\repos\BookStore\Tests\BookStore.UnitTests\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\hakan\source\repos\BookStore\Tests\BookStore.UnitTests\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
@@ -116,8 +116,8 @@ C:\Users\hakan\source\repos\BookStore\Tests\BookStore.UnitTests\obj\Debug\net6.0
 C:\Users\hakan\source\repos\BookStore\Tests\BookStore.UnitTests\obj\Debug\net6.0\BookStore.UnitTests.AssemblyInfoInputs.cache
 C:\Users\hakan\source\repos\BookStore\Tests\BookStore.UnitTests\obj\Debug\net6.0\BookStore.UnitTests.AssemblyInfo.cs
 C:\Users\hakan\source\repos\BookStore\Tests\BookStore.UnitTests\obj\Debug\net6.0\BookStore.UnitTests.csproj.CoreCompileInputs.cache
-C:\Users\hakan\source\repos\BookStore\Tests\BookStore.UnitTests\obj\Debug\net6.0\BookStore.UnitTests.csproj.CopyComplete
+c:\Users\hakan\source\repos\BookStore\Tests\BookStore.UnitTests\obj\Debug\net6.0\BookStore.UnitTests.csproj.CopyComplete
 C:\Users\hakan\source\repos\BookStore\Tests\BookStore.UnitTests\obj\Debug\net6.0\BookStore.UnitTests.dll
 C:\Users\hakan\source\repos\BookStore\Tests\BookStore.UnitTests\obj\Debug\net6.0\ref\BookStore.UnitTests.dll
 C:\Users\hakan\source\repos\BookStore\Tests\BookStore.UnitTests\obj\Debug\net6.0\BookStore.UnitTests.pdb
-C:\Users\hakan\source\repos\BookStore\Tests\BookStore.UnitTests\obj\Debug\net6.0\BookStore.UnitTests.genruntimeconfig.cache
+c:\Users\hakan\source\repos\BookStore\Tests\BookStore.UnitTests\obj\Debug\net6.0\BookStore.UnitTests.genruntimeconfig.cache

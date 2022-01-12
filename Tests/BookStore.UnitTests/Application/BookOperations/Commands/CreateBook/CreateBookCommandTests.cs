@@ -22,7 +22,7 @@ public class CreateBookCommandTests : IClassFixture<CommonTestFixture>
     }
 
     [Fact]
-    public void WhenGivenBookTitleIsAlreadyExist_InvalidOperationExecption_ShouldBeReturn()
+    public void WhenGivenBookTitleIsAlreadyExist_InvalidOperationException_ShouldBeReturn()
     {
         //arrange(Hazırlık)
         CreateBookCommand command = new CreateBookCommand(_context, _mapper);
@@ -41,7 +41,7 @@ public class CreateBookCommandTests : IClassFixture<CommonTestFixture>
         CreateBookCommand command = new CreateBookCommand(_context, _mapper);
         var model = new CreateBookModel
         {
-            Title = "Hobbit",
+            Title = "WhenGivenInputsAreValid_Book_ShouldBeCreated",
             GenreId = 1,
             AuthorId = 1,
             PageCount = 100,

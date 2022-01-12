@@ -17,7 +17,7 @@ public class UpdateAuthorCommand
         if (author is null)
             throw new InvalidOperationException("Author is not exist!");
         if(_dbContext.Authors.Any(x=> (x.Name+x.FamilyName).ToLower() == (Model.Name+Model.FamilyName).ToLower() && x.Id != Id))
-            throw new InvalidOperationException("An author with the same name already exists!");
+            throw new InvalidOperationException("An author with the same name is already exists!");
 
         author.Name = Model.Name != default ? Model.Name : author.Name;
         author.FamilyName = Model.FamilyName != default ? Model.FamilyName : author.FamilyName;
