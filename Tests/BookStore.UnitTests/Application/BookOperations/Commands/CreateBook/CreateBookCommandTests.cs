@@ -25,12 +25,8 @@ public class CreateBookCommandTests : IClassFixture<CommonTestFixture>
     public void WhenGivenBookTitleIsAlreadyExist_InvalidOperationExecption_ShouldBeReturn()
     {
         //arrange(Hazırlık)
-        var book = new Book { Title = "SampleBook", GenreId = 1, AuthorId = 1, PageCount = 100, PublishDate = new DateTime(2020, 02, 23) };
-        _context.Books.Add(book);
-        _context.SaveChanges();
-
         CreateBookCommand command = new CreateBookCommand(_context, _mapper);
-        command.Model = new CreateBookModel{Title = "SampleBook"};
+        command.Model = new CreateBookModel{Title = "Dune"};
         //act(Çalıştırma)
         //assert(Doğrulama)
         FluentActions
