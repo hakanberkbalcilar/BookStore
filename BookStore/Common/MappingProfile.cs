@@ -9,6 +9,7 @@ using BookStore.Application.GenreOperations.Commands.CreateGenre;
 using BookStore.Application.AuthorOperations.Commands.CreateAuthor;
 using BookStore.Application.AuthorOperations.Queries.GetAuthorDetail;
 using BookStore.Application.AuthorOperations.Queries.GetAuthors;
+using BookStore.Application.UserOperations.Commands.CreateUser;
 
 namespace BookStore.Common;
 
@@ -17,6 +18,11 @@ public class MappingProfile : Profile
 
     public MappingProfile()
     {
+        //User
+        CreateMap<CreateUserModel, User>();
+        // CreateMap<User, UserDetailViewModel>();
+        // CreateMap<User, UsersViewModel>();
+
         //Author
         CreateMap<CreateAuthorModel, Author>();
         CreateMap<Author, AuthorDetailViewModel>();

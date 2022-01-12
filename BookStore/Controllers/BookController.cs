@@ -7,9 +7,11 @@ using BookStore.Application.BookOperations.Commands.UpdateBook;
 using BookStore.DBOperations;
 using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BookStore.Controllers;
 
+[Authorize]
 [ApiController]
 [Route("[controller]s")]
 public class BookController : ControllerBase

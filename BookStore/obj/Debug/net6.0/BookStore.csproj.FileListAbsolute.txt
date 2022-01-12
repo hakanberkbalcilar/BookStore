@@ -32,3 +32,10 @@ C:\Users\hakan\source\repos\BookStore\BookStore\obj\Debug\net6.0\BookStore.dll
 C:\Users\hakan\source\repos\BookStore\BookStore\obj\Debug\net6.0\ref\BookStore.dll
 C:\Users\hakan\source\repos\BookStore\BookStore\obj\Debug\net6.0\BookStore.pdb
 C:\Users\hakan\source\repos\BookStore\BookStore\obj\Debug\net6.0\BookStore.genruntimeconfig.cache
+C:\Users\hakan\source\repos\BookStore\Bookstore\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\hakan\source\repos\BookStore\Bookstore\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\hakan\source\repos\BookStore\Bookstore\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\hakan\source\repos\BookStore\Bookstore\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\hakan\source\repos\BookStore\Bookstore\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\hakan\source\repos\BookStore\Bookstore\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\hakan\source\repos\BookStore\Bookstore\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
