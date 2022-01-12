@@ -56,9 +56,12 @@ public class CreateBookCommandTests : IClassFixture<CommonTestFixture>
         //act(Çalıştırma)
         CreateBookCommandValidator validator = new CreateBookCommandValidator();
         var result = validator.Validate(command);
+        FluentActions.Invoking(()=> command.Handle()).Invoke();
 
         //assert(Doğrulama)
+        var book = _context.Books.FirstOrDefault(x=> x.Title == model.Title);
         result.Errors.Count.Should().Be(0);
+        book.Should().NotBeNull();
     }
 
 }
