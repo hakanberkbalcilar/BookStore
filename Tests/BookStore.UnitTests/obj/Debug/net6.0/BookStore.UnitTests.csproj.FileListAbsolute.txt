@@ -121,3 +121,10 @@ C:\Users\hakan\source\repos\BookStore\Tests\BookStore.UnitTests\obj\Debug\net6.0
 C:\Users\hakan\source\repos\BookStore\Tests\BookStore.UnitTests\obj\Debug\net6.0\ref\BookStore.UnitTests.dll
 C:\Users\hakan\source\repos\BookStore\Tests\BookStore.UnitTests\obj\Debug\net6.0\BookStore.UnitTests.pdb
 c:\Users\hakan\source\repos\BookStore\Tests\BookStore.UnitTests\obj\Debug\net6.0\BookStore.UnitTests.genruntimeconfig.cache
+c:\Users\hakan\source\repos\BookStore\Tests\BookStore.UnitTests\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+c:\Users\hakan\source\repos\BookStore\Tests\BookStore.UnitTests\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+c:\Users\hakan\source\repos\BookStore\Tests\BookStore.UnitTests\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+c:\Users\hakan\source\repos\BookStore\Tests\BookStore.UnitTests\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+c:\Users\hakan\source\repos\BookStore\Tests\BookStore.UnitTests\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+c:\Users\hakan\source\repos\BookStore\Tests\BookStore.UnitTests\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+c:\Users\hakan\source\repos\BookStore\Tests\BookStore.UnitTests\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

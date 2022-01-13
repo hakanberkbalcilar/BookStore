@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hakan\\source\\repos\\BookStore\\bookstore\\BookStore.csproj": {}
+    "c:\\Users\\hakan\\source\\repos\\BookStore\\BookStore\\BookStore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hakan\\source\\repos\\BookStore\\bookstore\\BookStore.csproj": {
+    "c:\\Users\\hakan\\source\\repos\\BookStore\\BookStore\\BookStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hakan\\source\\repos\\BookStore\\bookstore\\BookStore.csproj",
+        "projectUniqueName": "c:\\Users\\hakan\\source\\repos\\BookStore\\BookStore\\BookStore.csproj",
         "projectName": "BookStore",
-        "projectPath": "C:\\Users\\hakan\\source\\repos\\BookStore\\bookstore\\BookStore.csproj",
+        "projectPath": "c:\\Users\\hakan\\source\\repos\\BookStore\\BookStore\\BookStore.csproj",
         "packagesPath": "C:\\Users\\hakan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hakan\\source\\repos\\BookStore\\bookstore\\obj\\",
+        "outputPath": "c:\\Users\\hakan\\source\\repos\\BookStore\\BookStore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
