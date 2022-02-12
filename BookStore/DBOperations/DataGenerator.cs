@@ -11,7 +11,15 @@ public class DataGenerator
         {
             if (context.Books.Any())
                 return;
-            
+
+            context.Users.Add(new User
+            {
+                Name = "Hakan",
+                Surname = "Balcılar",
+                Email = "hakanberkbalcilar@gmail.com",
+                Password = "123456",
+            });
+
             context.Authors.AddRange(new Author
             {
                 Name = "Frank",

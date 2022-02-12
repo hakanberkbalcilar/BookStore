@@ -2,10 +2,10 @@ using AutoMapper;
 using BookStore.DBOperations;
 using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
-
 using BookStore.Application.UserOperations.Commands.CreateToken;
 using BookStore.TokenOperations.Models;
 using BookStore.Application.UserOperations.Commands.CreateUser;
+using BookStore.Application.UserOperations.Commands.RefreshToken;
 
 namespace BookStore.Controllers;
 
@@ -36,11 +36,20 @@ public class UserController : ControllerBase
         return Ok();
     }
 
-    [HttpPost("Connect/Token")]
+    [HttpPost("connect/token")]
     public ActionResult<Token> CreateToken([FromBody] CreateTokenModel login)
     {
         CreateTokenCommand command = new CreateTokenCommand(_context, _mapper, _configuration);
         command.Model = login;
+
+        return Ok(command.Handle());
+    }
+
+    [HttpGet("refreshToken")]
+    public ActionResult<Token> RefreshToken([FromQuery] String token)
+    {
+        RefreshTokenCommand command = new RefreshTokenCommand(_context, _configuration);
+        command.RefreshToken = token;
 
         return Ok(command.Handle());
     }
